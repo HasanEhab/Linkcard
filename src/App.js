@@ -52,8 +52,8 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path={"linkcard/"} exact element={<Screen1 />} />
-          <Route path={"linkcard/screen2"} exact element={<Screen2 />} />
+          <Route path={"Linkcard/"} exact element={<Screen1 />} />
+          <Route path={"Linkcard/screen2"} exact element={<Screen2 />} />
         </Routes>
       </div>
     </BrowserRouter>
