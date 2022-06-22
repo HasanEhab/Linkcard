@@ -1,0 +1,63 @@
+.card{
+background-color: 785fce;
+border-radius: 10px;
+text-transform: capitalize;
+display: flex;
+flex-direction: row;
+}
+.card__data{
+width: 75%;
+}
+.card__buttons{
+width: 25%;
+}
+.card__data__titles{
+    font-weight: bold;
+}
+.card__save{
+    text-transform: capitalize;
+    background-color: #785fce;
+    color: white;
+}
+.card__delete{
+
+}
+.card__data__email{
+letter-spacing: -.5px;
+}
+@media (max-width:990px) {
+    p{
+        font-size: 13px;
+    }
+}
+ @media (max-width:767px) {
+    .card__data{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .card__buttons{
+        width: 100%;
+        margin: 10px 0px;
+        justify-content: center !important;
+    }
+    .card__buttons button{
+        margin: 0px 10px;
+    }
+} 
+
+@media (max-width:600px) {
+    p{
+        font-size: 2vw;
+    }
+    .card__data{
+        margin: 5px 0px;
+    }
+    .card__buttons{
+        margin: 5px 0px;
+    }
+    .card__buttons button{
+        margin: 0px 5px;
+        font-size: 2.2vw;
+        padding: 5px 4px;
+    }
+}
